@@ -1,31 +1,33 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
+
+.image-button {
+    width: 500px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.image-button:hover {
+    transform: scale(1.08);
+}
 body {
-    background-color: #392a48; /* Side color */
     margin: 0;
+    height: 100vh;          /* Full screen height */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
 }
 
-.container {
-    width: 55%;
-    margin: auto;
-    background-color: #8968cd; /* Center color */
-    min-height: 100vh;
-    padding: 20px;
-}
-
-body{text-align: center;
-}
 </style>
 </head>
 <body>
-
-<div class="container">
-    <h1 style="color: #392a48;">(❁´◡`❁)</h1>
-    <p style="color: rgb(61, 30, 61); font-size: 36px;">xx.</p>
-</div>
-
+    
+<a href="Index.html">
+    <img src="Imgs/letter.png" alt="Button" class="image-button">
+</a>
 </body>
 </html>
