@@ -2,3 +2,24 @@ body {
     background-color: #8968cd;
 }
 
+/* Computer */
+.side-left,
+.side-right {
+    width: 250px;
+}
+
+p {
+    font-size: 24px;
+}
+
+/* Phone */
+@media screen and (max-width: 768px) {
+    .side-left,
+    .side-right {
+        width: 80px;      /* Make the side images smaller */
+    }
+
+    p {
+        font-size: 16px;  /* Make the text smaller */
+    }
+}
